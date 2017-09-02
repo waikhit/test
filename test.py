@@ -17,6 +17,3 @@ class Customer(Object):
 		#return hands a value back to its caller
 		self.balance += amount
 		return self.balance
-
-	def check(self, amount):
-		
